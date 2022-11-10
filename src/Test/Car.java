@@ -13,7 +13,8 @@ public class Car {
     public String trafficLight(String light) {
         String carSpeed = "drive";
        // String light = "green";
-        if (light == "red"){
+
+        if (light == "blue"){
             carSpeed = "stand";
         } else if(light == "yellow"){
             carSpeed = "wait";
